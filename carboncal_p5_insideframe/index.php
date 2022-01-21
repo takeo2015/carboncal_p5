@@ -42,7 +42,7 @@
     
         return false;
     }
-    // $oldIP = in_array_r($_SESSION['ipaddress'], $array) ? 1 : 0; #if the ip exists = 1, else = 0
+    $oldIP = in_array_r($_SESSION['ipaddress'], $array) ? 1 : 0; #if the ip exists = 1, else = 0
     $oldIP = in_array_r("73.45.108.140", $array) ? 1 : 0; #if the ip exists = 1, else = 0
     // echo $oldIP;
 
